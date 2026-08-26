@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Activities — IEEE Student Chapter</title>
+<meta name="description" content="Upcoming technical, professional development, and community activities from the IEEE Student Chapter.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav wrap">
+    <a href="index.html" class="brand">
+      <img class="logo-image logo-image-small" src="./IEEE LOGO.png" alt="IEEE Student Branch AIEM logo">
+      <span class="brand-name">IEEE-AIEM Students Branch</span>
+      <span class="brand-tag"></span>
+    </a>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">Menu</button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="roster.html">Organiser</a></li>
+      <li><a href="event.html" aria-current="page">Activities</a></li>
+      <li><a href="join.html" class="nav-cta nav-cta-mobile">Join</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section class="page-hero">
+    <div class="wrap">
+      <span class="tag">Chapter activities</span>
+      <h1>Learn, connect, lead, and serve.</h1>
+      <p class="lead">Our annual programme brings IEEE members together through technical sessions, professional development, leadership opportunities, and community engagement.</p>
+    </div>
+  </section>
+
+  <div class="wrap"><div class="rule"></div></div>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="event-tabs" role="tablist" aria-label="Chapter events">
+        <button class="event-tab active" id="upcoming-tab" type="button" role="tab" aria-selected="true" aria-controls="upcoming-events">Upcoming events</button>
+        <button class="event-tab" id="past-tab" type="button" role="tab" aria-selected="false" aria-controls="past-events">Past events</button>
+      </div>
+
+      <div class="event-panel" id="upcoming-events" role="tabpanel" aria-labelledby="upcoming-tab">
+        <!-- <span class="tag" style="color:var(--text-dim);">Upcoming programme</span> -->
+        <!-- Use YYYY-MM-DD in data-event-date; completed events move to the archive automatically. -->
+        <div class="event-row reveal" data-event-date="2026-12-01">
+          <!-- <div class="event-date"><strong>Date</strong> 2026</div>
+          <div>
+             <h3>Event Name</h3>
+            <p>Event details go here.</p>
+          </div>
+          <a class="event-status open" href="https://script.google.com/macros/s/AKfycbw6jvSLfHxPmLYg2VnE0nrqkhJ1KKsh2uER-CbeAKx_X717C3-ba-7T3lVULqES-JaEIg/exec" target="_blank" rel="noopener">Register now</a>
+        </div>
+        <p class="form-note" style="margin-top:32px;">Dates and activities above are placeholders — update this list with your official IEEE chapter schedule.</p>
+      </div> -->
+
+      <!-- Past event content can be added here later. -->
+      <div class="event-panel" id="past-events" role="tabpanel" aria-labelledby="past-tab" hidden></div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <a href="index.html" class="brand">
+          <img class="logo-image logo-image-small" src="./IEEE LOGO.png" alt="IEEE Student Branch AIEM logo">
+          <span class="brand-name">IEEE</span>
+        </a>
+        <p style="max-width:32ch; margin-top:14px;">The official IEEE Student Chapter, supporting technical excellence, professional development, and service.</p>
+      </div>
+      <div class="footer-cols">
+        <div class="footer-col">
+          <h4>Site</h4>
+          <a href="about.html">About</a>
+          <a href="roster.html">Committee</a>
+          <a href="event.html">Activities</a>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <a href="mailto:aiem.chapter@college.edu">aiem.chapter@college.edu</a>
+          <a href="#">Instagram</a>
+          <a href="#">Discord</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 IEEE Student Chapter</span>
+      <span>Block-A, Room 114</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

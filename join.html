@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Join — IEEE Student Chapter</title>
+<meta name="description" content="Apply to join the IEEE Student Chapter and take part in technical, professional, and community activities.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav wrap">
+    <a href="index.html" class="brand">
+      <img class="logo-image logo-image-small" src="./IEEE LOGO.png" alt="IEEE Student Branch AIEM logo">
+      <span class="brand-name">IEEE-Aiem Students Branch</span>
+      <span class="brand-tag"></span>
+    </a>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">Menu</button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="roster.html">Organiser</a></li>
+      <li><a href="event.html">Activities</a></li>
+      <li><a href="join.html" class="nav-cta nav-cta-mobile">Join</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section class="page-hero">
+    <div class="wrap">
+      <span class="tag">IEEE membership</span>
+      <h1>Take your next step with the chapter.</h1>
+      <p class="lead">Students from every discipline and year are welcome to apply. Join a professional community that supports technical learning, leadership, networking, and service.</p>
+    </div>
+  </section>
+
+  <div class="wrap"><div class="rule"></div></div>
+
+  <section class="section">
+    <div class="wrap">
+      <form id="join-form" class="form-shell reveal" action="https://script.google.com/macros/s/AKfycbyQvutnsQmWSbP0FsanvztuWAQE6QTW_8T6Tzx2s5E9noz_5G6R_X4Y5eyc38_eYF_BZg/exec" method="post" target="_blank">
+        <input type="hidden" name="eventName" value="IEEE Student Chapter Membership">
+        <div class="field-row">
+          <div class="field">
+            <label for="fname">Full name</label>
+            <input type="text" id="fname" name="fullName" required>
+          </div>
+          <div class="field">
+            <label for="email">College email</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+        </div>
+
+        <div class="field-row">
+          <div class="field">
+            <label for="branch">Programme / department</label>
+            <input type="text" id="branch" name="department" required>
+          </div>
+          <div class="field">
+            <label for="year">Year</label>
+            <select id="year" name="year" required>
+              <option value="">Select year</option>
+              <option>First year</option>
+              <option>Second year</option>
+              <option>Third year</option>
+              <option>Final year</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="interest">Which chapter opportunities interest you most?</label>
+          <select id="interest" name="interest">
+            <option>Technical talks and seminars</option>
+            <option>Professional development</option>
+            <option>Leadership and volunteering</option>
+            <option>Outreach and community service</option>
+            <option>Not sure yet — just exploring</option>
+          </select>
+        </div>
+
+        <div class="field">
+          <label for="why">Why do you want to join? (optional)</label>
+          <textarea id="why" name="why" placeholder="A sentence or two is plenty."></textarea>
+          <div class="field-hint">This helps us connect you with suitable chapter activities and opportunities.</div>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Submit application</button>
+        <div id="form-status" role="status"></div>
+
+        <p class="form-note">Your application will open the secure registration response in a new tab after submission.</p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <a href="index.html" class="brand">
+          <img class="logo-image logo-image-small" src="./IEEE LOGO.png" alt="IEEE Student Branch AIEM logo">
+          <span class="brand-name">IEEE</span>
+        </a>
+        <p style="max-width:32ch; margin-top:14px;">The official IEEE Student Chapter, supporting technical excellence, professional development, and service.</p>
+      </div>
+      <div class="footer-cols">
+        <div class="footer-col">
+          <h4>Site</h4>
+          <a href="about.html">About</a>
+          <a href="roster.html">Committee</a>
+          <a href="event.html">Activities</a>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <a href="mailto:aiem.chapter@college.edu">aiem.chapter@college.edu</a>
+          <a href="#">Instagram</a>
+          <a href="#">Discord</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 IEEE Student Chapter</span>
+      <span> Block-A, Room 114</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
